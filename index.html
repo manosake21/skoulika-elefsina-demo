@@ -1,1 +1,251 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A hospitality-first concept that puts appetite, atmosphere and action at the centre."><title>Skoulika family grill · Elefsina</title><style>@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700&family=Space+Mono&family=Cormorant+Garamond:wght@500;600;700&display=swap');:root{--bg:#0d0d12;--fg:#f5f0e7;--a:#b8a4ff;--font1:Georgia,serif;--font2:Verdana,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font2);line-height:1.55}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}.nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;gap:20px}.brand{font-family:var(--font1);font-size:24px}.navlinks{display:flex;gap:22px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}.btn{display:inline-block;padding:13px 18px;background:var(--a);color:var(--bg);font-weight:700;border-radius:999px}.hero{min-height:82vh;display:grid;align-items:end;padding:70px 0 55px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;inset:12% -15% -30%;background:radial-gradient(circle at 65% 45%,var(--a),transparent 42%);opacity:.25;filter:blur(20px);pointer-events:none}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.18em;opacity:.65}h1{font-family:var(--font1);font-size:clamp(64px,11vw,150px);line-height:.84;letter-spacing:-.055em;max-width:1050px;margin:18px 0;position:relative;z-index:1}.lead{font-size:clamp(18px,2vw,25px);max-width:650px;position:relative;z-index:1}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px;position:relative;z-index:1}section{padding:100px 0;border-top:1px solid color-mix(in srgb,var(--fg) 16%,transparent)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border:1px solid color-mix(in srgb,var(--fg) 18%,transparent);min-height:190px;border-radius:22px}.card b{font-family:var(--font1);font-size:27px}.bigquote{font-family:var(--font1);font-size:clamp(38px,6vw,82px);line-height:.98;max-width:980px}.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.num{font-family:var(--font1);font-size:70px;color:var(--a)}footer{padding:55px 0 80px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}@media(max-width:760px){.navlinks{display:none}.grid,.split{grid-template-columns:1fr}h1{font-size:62px}section{padding:70px 0}} </style></head><body><header class="wrap nav"><div class="brand">Skoulika family grill · Elefsina</div><nav class="navlinks"><a href="#01">01</a><a href="#02">02</a><a href="#03">03</a></nav></header><main><section class="wrap hero"><div><div class="eyebrow">Eat / field notes</div><h1>COME<br>CURIOUS.</h1><p class="lead">A hospitality-first concept that puts appetite, atmosphere and action at the centre.</p><a class="btn" href="#01">Explore the table</a></div></section><section id="01"><div class="wrap split"><div><div class="eyebrow">01 — Arrival</div><h2 style="font-family:var(--font1);font-size:60px">One strong idea.</h2></div><p class="lead">The first screen sets the tone immediately, using scale and restraint instead of clutter.</p></div></section><section id="02"><div class="wrap split"><p class="lead">02 — Details<br><br>Build the middle of the page around real content: the offer, the atmosphere, the practical information and the reasons to choose this place.</p><div><div class="eyebrow">02 — Details</div><h2 style="font-family:var(--font1);font-size:60px">Nothing extra.</h2></div></div></section><section id="03"><div class="wrap"><div class="eyebrow">03 — Action</div><p class="bigquote">When the visitor is ready, the route is obvious.</p><a class="btn" href="mailto:?subject=Enquiry%20for%20Skoulika family grill · Elefsina">Contact</a></div></section></main><footer class="wrap"><span>Skoulika family grill · Elefsina</span><span>Designed from scratch</span></footer><script>document.querySelectorAll("a[href^=\"#\"]").forEach(a=>a.addEventListener("click",()=>document.body.dataset.nav="used"));</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Skoulika family grill · Elefsina</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A hospitality‑first concept that puts appetite, atmosphere and action at the centre.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --color-bg:#0d0d12;
+  --color-fg:#f5f0e7;
+  --color-primary:#b8a4ff;
+  --color-accent:#ffb86c;
+  --font-sans:Inter,system-ui,sans-serif;
+  --font-serif:Playfair Display,serif;
+  --radius:12px;
+}
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  margin:0;
+  min-height:100vh;
+  background:var(--color-bg);
+  color:var(--color-fg);
+  font-family:var(--font-sans);
+  line-height:1.6;
+}
+a{
+  color:inherit;
+  text-decoration:none;
+}
+a:focus-visible{
+  outline:2px solid var(--color-primary);
+  outline-offset:2px;
+}
+button{
+  font:inherit;
+  cursor:pointer;
+}
+.skip-link{
+  position:absolute;
+  top:-40px;
+  left:0;
+  background:var(--color-primary);
+  color:var(--color-bg);
+  padding:8px 12px;
+  z-index:100;
+  transition:top .3s;
+}
+.skip-link:focus-visible{
+  top:0;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 2rem;
+}
+.brand{
+  font-family:var(--font-serif);
+  font-size:1.25rem;
+  font-weight:700;
+}
+nav{
+  display:flex;
+  gap:1.5rem;
+}
+nav a{
+  font-size:.875rem;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  font-weight:600;
+}
+nav a:hover,
+nav a:focus-visible{
+  color:var(--color-primary);
+}
+.hero{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  min-height:80vh;
+  padding:2rem;
+  overflow:hidden;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at 30% 30%,var(--color-primary),transparent 60%);
+  opacity:.15;
+  pointer-events:none;
+}
+.hero svg{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+}
+.eyebrow{
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  opacity:.7;
+}
+h1{
+  font-family:var(--font-serif);
+  font-size:clamp(3rem,10vw,8rem);
+  line-height:1;
+  margin:0.5rem 0;
+}
+.lead{
+  font-size:clamp(1rem,2.5vw,1.25rem);
+  max-width:45ch;
+  margin-bottom:1.5rem;
+}
+.cta{
+  display:inline-block;
+  background:var(--color-primary);
+  color:var(--color-bg);
+  padding:.75rem 1.5rem;
+  border-radius:999px;
+  font-weight:600;
+  transition:background .2s;
+}
+.cta:hover,
+.cta:focus-visible{
+  background:var(--color-accent);
+}
+section{
+  padding:4rem 2rem;
+  border-top:1px solid rgba(245,240,231,.1);
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+.split{
+  display:grid;
+  gap:2rem;
+}
+@media(min-width:768px){
+  .split{
+    grid-template-columns:1fr 1fr;
+    align-items:start;
+  }
+}
+.num{
+  font-family:var(--font-serif);
+  font-size:4rem;
+  color:var(--color-primary);
+  line-height:1;
+}
+.bigquote{
+  font-family:var(--font-serif);
+  font-size:clamp(2rem,6vw,4rem);
+  line-height:1.1;
+  max-width:30ch;
+}
+footer{
+  background:rgba(0,0,0,.2);
+  padding:2rem;
+  text-align:center;
+  font-size:.875rem;
+}
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration:0.001ms !important;
+    transition-duration:0.001ms !important;
+    scroll-behavior:auto !important;
+  }
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header>
+  <div class="brand">Skoulika family grill · Elefsina</div>
+  <nav aria-label="Primary">
+    <a href="#arrival">Arrival</a>
+    <a href="#details">Details</a>
+    <a href="#action">Action</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <svg aria-hidden="true"><defs><pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="var(--color-primary)"/></pattern></defs><rect width="100%" height="100%" fill="url(#dots)"/></svg>
+    <span class="eyebrow">Eat / field notes</span>
+    <h1>COME<br>CURIOUS.</h1>
+    <p class="lead">A hospitality‑first concept that puts appetite, atmosphere and action at the centre.</p>
+    <a href="#arrival" class="cta">Explore the table</a>
+  </section>
+
+  <section id="arrival" class="container">
+    <div class="split">
+      <div>
+        <span class="eyebrow">01 — Arrival</span>
+        <h2 class="num">One strong idea.</h2>
+      </div>
+      <p class="lead">The first screen sets the tone immediately, using scale and restraint instead of clutter.</p>
+    </div>
+  </section>
+
+  <section id="details" class="container">
+    <div class="split">
+      <p class="lead">02 — Details<br><br>Build the middle of the page around real content: the offer, the atmosphere, the practical information and the reasons to choose this place.</p>
+      <div>
+        <span class="eyebrow">02 — Details</span>
+        <h2 class="num">Nothing extra.</h2>
+      </div>
+    </div>
+  </section>
+
+  <section id="action" class="container">
+    <span class="eyebrow">03 — Action</span>
+    <p class="bigquote">When the visitor is ready, the route is obvious.</p>
+    <a href="mailto:?subject=Enquiry%20for%20Skoulika%20family%20grill%20·%20Elefsina" class="cta">Contact</a>
+  </section>
+</main>
+
+<footer>
+  <p>Skoulika family grill · Elefsina</p>
+  <p>Designed from scratch</p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+  link.addEventListener('click',e=>{
+    const target=document.querySelector(link.getAttribute('href'));
+    if(target){
+      e.preventDefault();
+      target.scrollIntoView({behavior:'smooth'});
+    }
+  });
+});
+</script>
+</body>
+</html>
